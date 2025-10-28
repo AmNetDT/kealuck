@@ -1,0 +1,152 @@
+.menu-wrapper {
+    float: left;
+    width: 100%;
+	margin-bottom:30px;
+	margin-top:40px;
+	
+}
+
+.menu-wrapper a{
+  color:#FFFFFF;
+}
+
+.menu-wrapper ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-wrapper li {
+    float: left;
+    margin: 0;
+    margin-top: 3px;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+.menu-wrapper ul li a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFF;
+}
+
+.menu-wrapper a.noneactives{
+    display: block;
+    background: url("../customerManagement/image/right_brown.png") no-repeat right top;
+	color:#FFF;
+}
+
+
+.menu-wrapper a.noneactives span.tab{
+    display: block;
+    background: url("../customerManagement/image/left_brown.png") no-repeat left top;
+    padding: 5px 8px 6px;
+}
+
+
+.menu-wrapper  a.actives {
+    display: block;
+    background: url("../customerManagement/image/right.png") no-repeat right top;
+	color:#FFF;
+}
+
+
+.menu-wrapper a.actives span.tab {
+    display: block;
+    background: url("../customerManagement/image/left.png") no-repeat left top;
+    padding: 5px 8px 6px;
+}
+
+
+
+
+/* move the outline from the anchor to the inner span this gives the desired focus
+   while not leaving any dead spots on the tab (anchor covers the whole tab) */
+.menu-wrapper a:focus {
+    padding: 0px;
+    outline-style: none;
+	color:#FFF;
+}
+.menu-wrapper a span.tab span {
+    padding: 1px;
+	color:#FFF;
+}
+
+.menu-wrapper a:focus span.tab span {
+    outline: #000000 dotted 1px;
+	color:#FFF;
+}
+
+.menu-wrapper li.wlsc-menu-active div, .menu-wrapper li.wlsc-menu-active:hover div {
+    float: left;
+    background-position: right -100px;
+    border-bottom-color: #B8B8B8;
+}
+
+.menu-wrapper li.wlsc-menu-active div, .menu-wrapper li.wlsc-menu-active:hover div {
+    float: left;
+    background-position: right -100px;
+}
+
+.menu-wrapper li.wlsc-menu-active div span.tab {
+    background-position: left -100px;
+    font-weight: bold;
+}
+
+.menu-wrapper a:hover {
+    text-decoration: none;
+}
+
+.menu-wrapper a {
+    text-decoration: none;
+    color:#FFF;
+    font-weight: normal;
+}
+
+.menu-wrapper a:visited  {
+    color:#FFF;
+}
+
+/* styles for multilevel menus */
+
+.wlsc-menu-menu-panel ul li:hover > ul
+{
+    display: block;
+}
+
+.wlsc-menu-menu-panel ul ul
+{
+    border-width: 1px;
+    border-style: solid;
+    display: none;
+    position: absolute;
+    z-index: 100;
+    left: -1px;
+    top: 90%;
+}
+
+.wlsc-menu-menu-panel ul ul li
+{
+    display: block;
+}
+
+.wlsc-menu-menu-panel ul ul ul
+{
+    top: -1px;
+    left: 90%;
+}
+
+/* styles for image rolloves (page images) */
+
+.wlsc-menu-menu-panel ul li:hover > img.wlsc-image-rollover,
+.wlsc-menu-menu-panel ul li:hover > a > img.wlsc-image-rollover
+{
+    display: inline;
+}
+
+.wlsc-menu-menu-panel ul li:hover > img.wlsc-image-nonrollover,
+.wlsc-menu-menu-panel ul li:hover > a > img.wlsc-image-nonrollover
+{
+    display: none;
+}
