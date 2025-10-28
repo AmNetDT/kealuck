@@ -1,2 +1,0 @@
-[24-May-2025 20:20:41 UTC] PHP Warning:  Undefined property: User::$_data in /home/kealuc/app.kealuck.com/src/view/manufacturing/classes/User.php on line 96
-[24-May-2025 20:20:41 UTC] PHP Warning:  Attempt to read property "id" on null in /home/kealuc/app.kealuck.com/src/view/manufacturing/classes/User.php on line 89

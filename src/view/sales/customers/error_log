@@ -1,6 +1,0 @@
-[17-May-2025 12:19:58 UTC] PHP Warning:  Undefined property: User::$_data in /home/kealuc/app.kealuck.com/src/view/sales/classes/User.php on line 96
-[17-May-2025 12:19:58 UTC] PHP Warning:  Attempt to read property "id" on null in /home/kealuc/app.kealuck.com/src/view/sales/classes/User.php on line 89
-[24-May-2025 13:25:08 UTC] PHP Warning:  Undefined property: User::$_data in /home/kealuc/app.kealuck.com/src/view/sales/classes/User.php on line 96
-[24-May-2025 13:25:08 UTC] PHP Warning:  Attempt to read property "id" on null in /home/kealuc/app.kealuck.com/src/view/sales/classes/User.php on line 89
-[24-May-2025 13:30:13 UTC] PHP Warning:  Undefined property: User::$_data in /home/kealuc/app.kealuck.com/src/view/sales/classes/User.php on line 96
-[24-May-2025 13:30:13 UTC] PHP Warning:  Attempt to read property "id" on null in /home/kealuc/app.kealuck.com/src/view/sales/classes/User.php on line 89

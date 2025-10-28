@@ -1,6 +1,0 @@
-[18-Oct-2025 06:43:18 UTC] PHP Warning:  Undefined array key "voucher_code" in /home/kealuc/app.kealuck.com/src/view/sales/order-voucher/insertUtilities.php on line 8
-[18-Oct-2025 06:43:18 UTC] PHP Warning:  Undefined array key "description" in /home/kealuc/app.kealuck.com/src/view/sales/order-voucher/insertUtilities.php on line 9
-[18-Oct-2025 06:43:18 UTC] PHP Warning:  Undefined array key "amount" in /home/kealuc/app.kealuck.com/src/view/sales/order-voucher/insertUtilities.php on line 10
-[18-Oct-2025 06:43:35 UTC] PHP Warning:  Undefined array key "voucher_code" in /home/kealuc/app.kealuck.com/src/view/sales/order-voucher/insertUtilities.php on line 8
-[18-Oct-2025 06:43:35 UTC] PHP Warning:  Undefined array key "description" in /home/kealuc/app.kealuck.com/src/view/sales/order-voucher/insertUtilities.php on line 9
-[18-Oct-2025 06:43:35 UTC] PHP Warning:  Undefined array key "amount" in /home/kealuc/app.kealuck.com/src/view/sales/order-voucher/insertUtilities.php on line 10
