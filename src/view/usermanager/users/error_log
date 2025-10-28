@@ -1,0 +1,4 @@
+[17-May-2025 12:20:05 UTC] PHP Warning:  Undefined property: User::$_data in /home/kealuc/app.kealuck.com/src/view/usermanager/classes/User.php on line 96
+[17-May-2025 12:20:05 UTC] PHP Warning:  Attempt to read property "id" on null in /home/kealuc/app.kealuck.com/src/view/usermanager/classes/User.php on line 89
+[17-Oct-2025 16:42:56 UTC] PHP Warning:  Undefined property: User::$_data in /home/kealuc/app.kealuck.com/src/view/usermanager/classes/User.php on line 96
+[17-Oct-2025 16:42:56 UTC] PHP Warning:  Attempt to read property "id" on null in /home/kealuc/app.kealuck.com/src/view/usermanager/classes/User.php on line 89

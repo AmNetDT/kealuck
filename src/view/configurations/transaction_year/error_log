@@ -1,0 +1,11 @@
+[18-Apr-2024 09:53:01 America/New_York] PHP Warning:  Undefined property: User::$_data in /home/kealuc/app.kealuck.com/src/view/configurations/classes/User.php on line 96
+[18-Apr-2024 09:53:01 America/New_York] PHP Warning:  Attempt to read property "id" on null in /home/kealuc/app.kealuck.com/src/view/configurations/classes/User.php on line 89
+[18-Apr-2024 09:53:01 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'member_id' in 'where clause' in /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php:39
+Stack trace:
+#0 /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php(39): PDOStatement->execute()
+#1 /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php(59): Db->query()
+#2 /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php(72): Db->action()
+#3 /home/kealuc/app.kealuck.com/src/view/configurations/classes/User.php(89): Db->delete()
+#4 /home/kealuc/app.kealuck.com/src/view/configurations/transaction_year/index.php(97): User->logout()
+#5 {main}
+  thrown in /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php on line 39

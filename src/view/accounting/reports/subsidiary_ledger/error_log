@@ -1,0 +1,24 @@
+[17-Apr-2025 12:38:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/kealuc/app.kealuck.com/src/view/accounting/reports/classes/Db.php:39
+Stack trace:
+#0 /home/kealuc/app.kealuck.com/src/view/accounting/reports/classes/Db.php(39): PDOStatement->execute()
+#1 /home/kealuc/app.kealuck.com/src/view/accounting/reports/subsidiary_ledger/index.php(75): Db->query('SELECT a.*, b.d...')
+#2 {main}
+  thrown in /home/kealuc/app.kealuck.com/src/view/accounting/reports/classes/Db.php on line 39
+[17-Apr-2025 12:39:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/kealuc/app.kealuck.com/src/view/accounting/reports/classes/Db.php:39
+Stack trace:
+#0 /home/kealuc/app.kealuck.com/src/view/accounting/reports/classes/Db.php(39): PDOStatement->execute()
+#1 /home/kealuc/app.kealuck.com/src/view/accounting/reports/subsidiary_ledger/index.php(75): Db->query('SELECT a.*, b.d...')
+#2 {main}
+  thrown in /home/kealuc/app.kealuck.com/src/view/accounting/reports/classes/Db.php on line 39
+[17-Apr-2025 12:39:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/kealuc/app.kealuck.com/src/view/accounting/reports/classes/Db.php:39
+Stack trace:
+#0 /home/kealuc/app.kealuck.com/src/view/accounting/reports/classes/Db.php(39): PDOStatement->execute()
+#1 /home/kealuc/app.kealuck.com/src/view/accounting/reports/subsidiary_ledger/index.php(75): Db->query('SELECT a.*, b.d...')
+#2 {main}
+  thrown in /home/kealuc/app.kealuck.com/src/view/accounting/reports/classes/Db.php on line 39
+[21-Oct-2025 11:04:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/kealuc/app.kealuck.com/src/view/accounting/reports/classes/Db.php:39
+Stack trace:
+#0 /home/kealuc/app.kealuck.com/src/view/accounting/reports/classes/Db.php(39): PDOStatement->execute()
+#1 /home/kealuc/app.kealuck.com/src/view/accounting/reports/subsidiary_ledger/index.php(75): Db->query('SELECT a.*, b.d...')
+#2 {main}
+  thrown in /home/kealuc/app.kealuck.com/src/view/accounting/reports/classes/Db.php on line 39

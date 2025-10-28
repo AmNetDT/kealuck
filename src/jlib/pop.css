@@ -1,0 +1,52 @@
+.myModal {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: #000000;
+    opacity: 0.3;
+    display: none;
+	z-index:5;
+}
+
+.myPop {
+    position: absolute;
+    margin-top:1%;
+    display: none;
+	z-index:6
+}
+
+.myPop-title {
+    font-size: 13px;
+    color: #FFF;
+    background: #ca1d1d; /*#284E90*/
+    margin: 0;
+    padding: 10px;
+    cursor: move;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.myPop-close {
+    float: right;
+    cursor: pointer;
+	font-size: 13px;
+}
+
+.myPop-expand {
+    float: right;
+    cursor: pointer;
+	font-size: 13px;
+}
+
+.myPop-content {
+    width: auto;
+	max-height: 450px;
+    background: #FFFFFF;
+    border: solid 1px #ca1d1d;
+    padding: 20px;
+	overflow:auto;
+}
+
+
+
