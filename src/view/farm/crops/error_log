@@ -1,0 +1,12 @@
+[22-Jan-2025 09:31:09 UTC] PHP Warning:  Undefined property: User::$_data in /home/kealuc/app.kealuck.com/src/view/farm/classes/User.php on line 96
+[22-Jan-2025 09:31:09 UTC] PHP Warning:  Attempt to read property "id" on null in /home/kealuc/app.kealuck.com/src/view/farm/classes/User.php on line 89
+[22-Jan-2025 09:31:09 UTC] PHP Warning:  Undefined property: User::$_data in /home/kealuc/app.kealuck.com/src/view/farm/classes/User.php on line 96
+[22-Jan-2025 09:31:09 UTC] PHP Warning:  Attempt to read property "id" on null in /home/kealuc/app.kealuck.com/src/view/farm/classes/User.php on line 89
+[22-Jan-2025 10:31:26 UTC] PHP Warning:  Undefined property: User::$_data in /home/kealuc/app.kealuck.com/src/view/farm/classes/User.php on line 96
+[22-Jan-2025 10:31:26 UTC] PHP Warning:  Attempt to read property "id" on null in /home/kealuc/app.kealuck.com/src/view/farm/classes/User.php on line 89
+[22-Jan-2025 11:00:14 UTC] PHP Warning:  Undefined property: User::$_data in /home/kealuc/app.kealuck.com/src/view/farm/classes/User.php on line 96
+[22-Jan-2025 11:00:14 UTC] PHP Warning:  Attempt to read property "id" on null in /home/kealuc/app.kealuck.com/src/view/farm/classes/User.php on line 89
+[22-Jan-2025 11:02:16 UTC] PHP Warning:  Undefined variable $total_cost in /home/kealuc/app.kealuck.com/src/view/farm/crops/request_approval.php on line 79
+[22-Jan-2025 11:02:16 UTC] PHP Warning:  Undefined variable $purchase_code in /home/kealuc/app.kealuck.com/src/view/farm/crops/request_approval.php on line 99
+[17-May-2025 08:53:12 UTC] PHP Warning:  Undefined variable $total_cost in /home/kealuc/app.kealuck.com/src/view/farm/crops/request_approval.php on line 79
+[17-May-2025 08:53:12 UTC] PHP Warning:  Undefined variable $purchase_code in /home/kealuc/app.kealuck.com/src/view/farm/crops/request_approval.php on line 99
