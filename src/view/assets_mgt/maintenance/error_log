@@ -1,0 +1,5 @@
+[23-Jan-2025 12:18:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/kealuc/app.kealuck.com/src/view/core/init.php on line 2
+[23-Jan-2025 12:18:50 UTC] PHP Warning:  Undefined property: User::$_data in /home/kealuc/app.kealuck.com/src/view/assets_mgt/classes/User.php on line 96
+[23-Jan-2025 12:18:50 UTC] PHP Warning:  Attempt to read property "id" on null in /home/kealuc/app.kealuck.com/src/view/assets_mgt/classes/User.php on line 89
+[23-Jan-2025 12:18:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kealuc/app.kealuck.com/src/view/assets_mgt/maintenance/index.php:1) in /home/kealuc/app.kealuck.com/src/view/assets_mgt/classes/Cookie.php on line 12
+[23-Jan-2025 12:18:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kealuc/app.kealuck.com/src/view/assets_mgt/maintenance/index.php:1) in /home/kealuc/app.kealuck.com/src/view/assets_mgt/classes/Redirect.php on line 14
