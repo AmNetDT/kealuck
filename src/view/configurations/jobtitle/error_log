@@ -1,0 +1,22 @@
+[20-Jun-2024 09:27:04 UTC] PHP Warning:  Undefined property: User::$_data in /home/kealuc/app.kealuck.com/src/view/configurations/classes/User.php on line 96
+[20-Jun-2024 09:27:04 UTC] PHP Warning:  Attempt to read property "id" on null in /home/kealuc/app.kealuck.com/src/view/configurations/classes/User.php on line 89
+[20-Jun-2024 09:27:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'member_id' in 'where clause' in /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php:39
+Stack trace:
+#0 /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php(39): PDOStatement->execute()
+#1 /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php(59): Db->query()
+#2 /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php(72): Db->action()
+#3 /home/kealuc/app.kealuck.com/src/view/configurations/classes/User.php(89): Db->delete()
+#4 /home/kealuc/app.kealuck.com/src/view/configurations/jobtitle/index.php(150): User->logout()
+#5 {main}
+  thrown in /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php on line 39
+[20-Jun-2024 09:27:13 UTC] PHP Warning:  Undefined property: User::$_data in /home/kealuc/app.kealuck.com/src/view/configurations/classes/User.php on line 96
+[20-Jun-2024 09:27:13 UTC] PHP Warning:  Attempt to read property "id" on null in /home/kealuc/app.kealuck.com/src/view/configurations/classes/User.php on line 89
+[20-Jun-2024 09:27:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'member_id' in 'where clause' in /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php:39
+Stack trace:
+#0 /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php(39): PDOStatement->execute()
+#1 /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php(59): Db->query()
+#2 /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php(72): Db->action()
+#3 /home/kealuc/app.kealuck.com/src/view/configurations/classes/User.php(89): Db->delete()
+#4 /home/kealuc/app.kealuck.com/src/view/configurations/jobtitle/index.php(150): User->logout()
+#5 {main}
+  thrown in /home/kealuc/app.kealuck.com/src/view/configurations/classes/Db.php on line 39
